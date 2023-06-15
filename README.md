@@ -5,6 +5,7 @@ It was a little complicated, but the result was successful.
 
 Of course, FloodFill can be implemented with only C# without API, but I wanted to try the ExtFloodFill function.
 
+//Among the sources I uploaded, 'Module.cs' is not used, so you can delete it.
 
 [DllImport("gdi32.dll")]
 public static extern bool ExtFloodFill(IntPtr hdc, int nXStart, int nYStart, int crColor, uint fuFillType);
