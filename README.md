@@ -12,14 +12,6 @@ public static extern bool ExtFloodFill(IntPtr hdc, int nXStart, int nYStart, int
 All source code is below.
 ---------------------------------------
 
-using System;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.Windows.Forms;
-using System.Runtime.InteropServices;
-
-namespace WindowsFormsApplication2
-{
     public partial class Form1 : Form
     {
         [DllImport("gdi32.dll")]
@@ -140,5 +132,3 @@ namespace WindowsFormsApplication2
             g3.Dispose();
         }        
     }
-}
-
